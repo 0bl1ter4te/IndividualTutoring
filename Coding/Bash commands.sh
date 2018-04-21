@@ -16,3 +16,9 @@ sudo _action_                               #Forces an action as the root user w
 
 #Git commands
 git clone repolink                          # Clones a git repo into your local destination
+git status                                  # Shows you the status of your files
+git add file1 file2 file3                   # Adds file or folder for comitting stage
+git commit -m "Message"                     # Commits the files you added with -m "Message", replace "" with unique message
+git push                                    # Push your changes into the repo officially
+git branch                                  # Show all the branches you have and see which one you're in
+git log                                     # SHow all commits ever made to branch
